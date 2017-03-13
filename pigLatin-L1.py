@@ -10,7 +10,7 @@ def PigLatin(input):
         strLength = len(input); #len is the number of character
         
         #first index start from 0
-        convString = input[1:strLength-1] + input[0] + "ay";
+        convString = input[1:strLength] + input[0] + "ay";
         return convString.lower(); #convert to lower case
             
             
